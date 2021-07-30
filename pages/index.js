@@ -8,9 +8,9 @@ export default function Home() {
 
 
   // redirect user to home page
-  /*useEffect(() => {
+  useEffect(() => {
     Router.push('/home')
-  }) */
+  }) 
 
 
   return (
