@@ -7,7 +7,7 @@ import Button from '../Components/library/Button'
 import Form from '../Components/library/Form'
 
 
-function testForm() {
+function TestForm() {
     const [formData, setformData] = useState({name: '', email: '', phone: '', })
 
     const onSubmit = (e)=>{
@@ -79,4 +79,4 @@ function testForm() {
     )
 }
 
-export default testForm
+export default TestForm
