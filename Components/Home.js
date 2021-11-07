@@ -27,12 +27,12 @@ function Home() {
             >
             People | Stories | Places
             </Box>
-            <Box
+            {/* <Box
             
             >
                 <Button className={classes.button} href='https://bit.ly/clubclink'>Subscribe Now</Button>
-            </Box>
-            <Box  width='10rem' m='1rem'p='0.5rem' display='flex' justifyContent='center'> 
+            </Box> */}
+            {/* <Box  width='10rem' m='1rem'p='0.5rem' display='flex' justifyContent='center'> 
                 <Box p='0.5rem' textDecoration='none' color='black'
                 >
                     <Link href='https://www.instagram.com/onerupeeclub/'>
@@ -52,7 +52,7 @@ function Home() {
                         <FaYoutube size='1.5rem' color='black' />
                     </Link>
                     </Box>
-            </Box>
+            </Box> */}
             
             
         </Box>

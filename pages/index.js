@@ -20,7 +20,7 @@ export default function App() {
       <Head>
         <title>One Rupee Club</title>
         <meta name="description" content="One Rupee Club 2021" />
-        <link rel="icon" href={logo} />
+        {/* <link rel="icon" href={logo} /> */}
       </Head>
     </div>
     <Box
