@@ -1,7 +1,5 @@
 import Box from '../Components/library/Box'
 import React, {useState} from 'react'
-import Image from 'next/image'
-import Logo from '../images/1RC_black.png'
 import FormInput from '../Components/library/FormInput'
 import Button from '../Components/library/Button'
 import Form from '../Components/library/Form'
@@ -25,12 +23,7 @@ function TestForm() {
          height='100vh'
          paddingTop='0'
          >
-            {/* <Image
-            src={Logo}
-            alt="1RC_logo"
-            width={100}
-            height={100}
-        /> */}
+            
             <Form 
             display='flex'
             flexDirection="column"
