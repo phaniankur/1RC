@@ -19,17 +19,21 @@ function TestForm() {
         <Box 
         bg='#A4C3A2'
          display='flex'
-         justifyContent='center'
          flexDirection="column"
-         alignItems='center'
          height='100vh'
-         paddingTop='0'
+         paddingTop='1.5rem'
          >
-             <Image
-             src={Logo}
-             width={100}
-             height={100}
-             />
+             <Box
+             display='flex'
+             justifyContent='center'
+             >
+                 <Image
+                src={Logo}
+                width={100}
+                height={100}
+                />
+             </Box>
+             
             
             <Form 
             display='flex'
