@@ -16,9 +16,7 @@ function TestForm() {
             .then(res=> {
                 
                 setResponse(res.data)
-            }).catch(err){
-                console.log(err)
-            }
+            }).catch(err => console.log(err))
     }
 
     return (
