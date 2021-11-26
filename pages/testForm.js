@@ -12,7 +12,7 @@ function TestForm() {
     const [response, setResponse] = useState('')
     const onSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:3000/api/form1', formData)
+        axios.post('../api/form1', formData)
             .then(res=> {
                 
                 setResponse(res.data)
