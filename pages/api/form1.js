@@ -38,7 +38,7 @@ export default async function form1(req, res){
     // })
     
     //Write rows TO sheet
-    const {name, email, phone, city} = req.body;
+    const {name, email, phone} = req.body;
     
     await googleSheets.spreadsheets.values.append({
         auth,
@@ -47,7 +47,7 @@ export default async function form1(req, res){
         valueInputOption: "USER_ENTERED",
         resource: {
             values: [
-                [name, email, phone, city]
+                [name, email, phone]
             ],
         }
     })
