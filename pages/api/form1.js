@@ -1,6 +1,5 @@
 
 // const { auth } = require("google-auth-library");
-const {BigQuery} = require('@google-cloud/bigquery');
 // const {google} = require("googleapis")
 import { google } from "googleapis";
 import {cred} from '../../credentials.json'
