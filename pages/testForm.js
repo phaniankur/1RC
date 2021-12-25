@@ -10,19 +10,25 @@ import Form from '../Components/library/Form'
 function TestForm() {
     const [formData, setformData] = useState({name: '', email: '', phone: '', })
     const [response, setResponse] = useState('')
+
     const onSubmit = (e) => {
         e.preventDefault();
-        axios.post('../api/form1', formData)
+        // axios.post('../api/form1', formData)
+        //     .then(res=> {
+
+        //         setResponse(res.data)
+        //     }).catch(err => console.log(err))
+        axios.post('https://onerc-server.herokuapp.com/subs', formData)
             .then(res=> {
-                
+
                 setResponse(res.data)
             }).catch(err => console.log(err))
     }
 
     return (
-        
-        
-        <Box 
+
+
+        <Box
         bg='#A4C3A2'
         display='flex'
         flexDirection="column"
@@ -44,7 +50,7 @@ function TestForm() {
              response?
                 <Box
                 color = 'green'
-                
+
                 width='100%'
                 height='100vh'
                 display='flex'
@@ -58,7 +64,7 @@ function TestForm() {
                 >Form Submitted</Box>
                 </Box>
             :
-            <Form 
+            <Form
             display='flex'
             flexDirection="column"
             justifyContent='center'
@@ -98,13 +104,13 @@ function TestForm() {
                     >
                         <Button variant="primary">Submit</Button>
                     </Box>
-                    
+
                 </Box>
-                
+
             </Form>
             }
-            
-            
+
+
         </Box>
     )
 }
