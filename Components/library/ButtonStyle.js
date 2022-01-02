@@ -17,7 +17,7 @@ const subButton = makeStyles((theme) => ({
         color: 'white',
         //border: '2px solid',
         borderRadius: '22px',
-        //padding: '8px',
+        margin: '0.5rem',
         boxShadow: '2.5px 5px 5px grey',
         fontFamily: 'Bodoni Moda, serif',
             "&:hover": {

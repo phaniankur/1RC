@@ -5,7 +5,7 @@ import subButton from '../Components/library/ButtonStyle'
 import {FaInstagram, FaFacebookF, FaYoutube} from "react-icons/fa"
 
 function Home() {
-    
+
     const classes = subButton();
     return (
         <>
@@ -19,7 +19,7 @@ function Home() {
             <Box
             fontSize={['2.5rem','3rem']}
             >One Rupee Club</Box>
-            
+
             <Box
             fontSize={['1.5rem','2rem']}
             textAlign= 'center'
@@ -28,17 +28,20 @@ function Home() {
             People | Stories | Places
             </Box>
             <Box
-            
+                display = 'flex'
+                flexDirection = {['column', 'row']}
+                justifyContent= 'center'
             >
                 <Button className={classes.button} href='https://bit.ly/clubclink'>Subscribe Now</Button>
+                <Button className={classes.button} href='https://bit.ly/1rcapply'>Join The Club</Button>
             </Box>
-            <Box  width='10rem' m='1rem'p='0.5rem' display='flex' justifyContent='center'> 
+            <Box  width='10rem' m='1rem'p='0.5rem' display='flex' justifyContent='center'>
                 <Box p='0.5rem' textDecoration='none' color='black'
                 >
                     <Link href='https://www.instagram.com/onerupeeclub/'>
                         <FaInstagram size='1.5rem' color='black'/>
                     </Link>
-                    
+
                 </Box>
                 <Box p='0.5rem'
                 >
@@ -53,12 +56,12 @@ function Home() {
                     </Link>
                     </Box>
             </Box>
-            
-            
+
+
         </Box>
-        
+
         </>
-        
+
     )
 }
 
