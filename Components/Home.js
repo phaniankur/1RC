@@ -33,7 +33,7 @@ function Home() {
                 justifyContent= 'center'
             >
                 <Button className={classes.button} href='https://bit.ly/clubclink'>Subscribe Now</Button>
-                <Button className={classes.button} href='https://bit.ly/1rcapply'>Join The Club</Button>
+                <Button className={classes.button} href='https://surveyheart.com/form/61d160d199c9483743ce01a0'>Join The Club</Button>
             </Box>
             <Box  width='10rem' m='1rem'p='0.5rem' display='flex' justifyContent='center'>
                 <Box p='0.5rem' textDecoration='none' color='black'
